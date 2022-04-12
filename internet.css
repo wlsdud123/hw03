@@ -1,0 +1,130 @@
+@charset "UTF-8";
+
+* {font-family: 맑은고딕;}
+* {font-size: 17px;}
+	/* 전체글꼴 "맑은고딕" , 폰트크기 17px */
+
+h2 {font-size: 25px;}
+h3 {font-size: 20px;}
+	/* 모든 h2,h3 글자크기 25,20px  */
+
+.ex1
+  {
+	font-family: 궁서;
+	  font-size: 30px;
+	  letter-spacing: 15px;	
+  }	
+	/* 인터넷개론 (스타일시트)  */
+	
+  .ex2
+   {
+  	font-style: italic;
+  	font-weight: bold;
+  	color: #0000FF;
+   }
+   
+  .ex3
+   {
+  	font-style: italic;
+  	font-weight: bold;
+  	color: #FF0000;
+   }
+   
+   .ex4
+   {
+   	text-decoration: underline;
+   	color: #00FF00;
+   }
+    .ex5 
+   {
+   	font-weight: bold;
+   	color: #FF0000;
+   }  
+   
+   .ex6
+   
+   {text-decoration: underline;
+   }
+   
+   .ex7 
+   {text-indent: 30px; }
+   
+   .ex8
+   {background-color: #D9D9D9;}
+   
+   .ex9
+   {
+   	font-weight: bold;
+   	color: #00FF00;
+   }
+   
+   .ex10
+   {
+   	font-style: italic;
+   	color: #0000FF;
+   }
+   
+   .ex11
+   {
+ 	font-weight: bold;
+ 	color: #FF0000;  
+   }
+   
+      
+   ul
+   {
+   list-style-type: square;
+   }
+   
+   ol>li
+   {
+   list-style-type: none;
+   }   
+   
+	tbody tr:hover
+   {
+	background-color: #EDD3ED;
+   } 
+   
+   th
+   {
+   background-color: #C8EBFA;   
+   }
+ 
+   .ex12,.ex13,.ex14,.ex15,.ex16
+   {
+   text-align: right;
+   }
+   
+   .ex12:after {content:" (MB/초)";}
+   .ex13:after {content:" (MB/초)";}
+   .ex14:after {content:" (MB/초)";}
+   .ex15:after {content:" (MB/초)";}
+   .ex16:after {content:" (MB/초)";}
+   
+   .ex12:before {content:"약 ";}
+   .ex13:before {content:"약 ";}
+   .ex14:before {content:"약 ";}
+   .ex15:before {content:"약 ";}
+   .ex16:before {content:"약 ";} 
+   
+
+   
+   
+   
+   
+   a:link{color: #000000; text-decoration: none;}
+   a:visited{color: #000000; }
+   a:hover{color: #0000FF; text-decoration: underline;} /*마우스올라갈때*/
+   a:active{color: #0000FF; text-decoration: underline;}
+   
+   
+   
+   
+  
+  
+  
+  
+  
+  
+  
